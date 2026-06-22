@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install and Build 🔧
+        env:
+          VITE_API_URL: https://script.google.com/macros/s/AKfycbxlze9yA7poPB5MSh8XUIcohcT0oUnNOmjZ7Bpln7ptJX0EJA8rQtCzwzR-UKlq6Qsjaw/exec
         run: |
           cd frontend
           npm ci
