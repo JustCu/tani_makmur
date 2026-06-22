@@ -1,0 +1,13 @@
+# Excel Temp Files
+~$*.xlsx
+~$*.xls
+
+# Node / Build
+node_modules/
+dist/
+.env
+.env*.local
+
+# OS
+.DS_Store
+Thumbs.db
